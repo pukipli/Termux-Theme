@@ -41,39 +41,33 @@ pkg i -y git bc
 
   </details>
 
-## Installation myTermux
+## Installation
 
   <details open>
   <summary><strong>Clone or Download This Repository</strong></summary>
 
-```bash
-git clone --depth=1 https://github.com/pukipli/Termux-Theme.git
 ```
-
-  </details>
-
-  <details>
-  <summary><strong>Run Script Installer</strong></summary>
-
-- Move to Folder
-
-```bash
-cd myTermux
+pkg update && pkg upgrade -y
 ```
-
-- export variable `COLUMNS` and `LINES`
-
-> This variable function so that the installer script can read the
-> `column` and `row` widths of Termux Application so that later it
-> matches the output during the installation process.
-
-```bash
+pkg install nano
+```
+```
+pkg install bash
+```
+```
+git clone https://github.com/pukipli/Termux-Theme.git
+```
+```
+cd Termux-Theme
+```
+```
 export COLUMNS LINES
 ```
-
-- Execute Installer
-
-```bash
+```
+chmod +x ./install.sh
+```
+```
+```
 ./install.sh
 ```
 
