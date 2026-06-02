@@ -1,4 +1,4 @@
-<h1 align="center">myTermux</h1>
+<h1 align="center">Termux-Theme</h1>
 
 <p align="center">This is my personal configuration for my favorite Termux</p>
 
