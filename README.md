@@ -68,7 +68,6 @@ export COLUMNS LINES
 chmod +x ./install.sh
 ```
 ```
-```
 ./install.sh
 ```
 
