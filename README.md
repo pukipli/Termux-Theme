@@ -49,6 +49,7 @@ pkg i -y git bc
 ```
 pkg update && pkg upgrade -y
 ```
+```
 pkg install nano
 ```
 ```
